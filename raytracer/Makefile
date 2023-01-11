@@ -8,10 +8,10 @@ $(EXECUTABLE):
 	cp $(SRC_EXEC) ${EXECUTABLE}
 
 clean:
-	stack clean
+		stack clean
 
-fclean: clean
-	rm -rf ${EXECUTABLE}
+fclean:	clean
+		rm -rf ${EXECUTABLE}
 
 re:
 	fclean all
