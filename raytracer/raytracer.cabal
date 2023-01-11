@@ -34,7 +34,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
-    , gloss
+    , JuicyPixels
   default-language: Haskell2010
 
 executable raytracer-exe
@@ -47,6 +47,7 @@ executable raytracer-exe
   build-depends:
       base >=4.7 && <5
     , raytracer
+    , JuicyPixels
   default-language: Haskell2010
 
 test-suite raytracer-test
